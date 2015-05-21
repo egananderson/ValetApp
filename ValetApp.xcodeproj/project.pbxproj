@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		550E45531B0E84F800106468 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 550E45521B0E84F800106468 /* main.m */; };
+		550E45561B0E84F800106468 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 550E45551B0E84F800106468 /* AppDelegate.m */; };
+		550E45591B0E84F800106468 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 550E45581B0E84F800106468 /* ViewController.m */; };
+		550E455C1B0E84F800106468 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550E455A1B0E84F800106468 /* Main.storyboard */; };
+		550E455E1B0E84F800106468 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 550E455D1B0E84F800106468 /* Images.xcassets */; };
+		550E45611B0E84F800106468 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 550E455F1B0E84F800106468 /* LaunchScreen.xib */; };
+		550E456D1B0E84F900106468 /* ValetAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 550E456C1B0E84F900106468 /* ValetAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		550E45671B0E84F900106468 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 550E45451B0E84F800106468 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 550E454C1B0E84F800106468;
+			remoteInfo = ValetApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		550E454D1B0E84F800106468 /* ValetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		550E45511B0E84F800106468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		550E45521B0E84F800106468 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		550E45541B0E84F800106468 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		550E45551B0E84F800106468 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		550E45571B0E84F800106468 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		550E45581B0E84F800106468 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		550E455B1B0E84F800106468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		550E455D1B0E84F800106468 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		550E45601B0E84F800106468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		550E45661B0E84F900106468 /* ValetAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValetAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		550E456B1B0E84F900106468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		550E456C1B0E84F900106468 /* ValetAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValetAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		550E454A1B0E84F800106468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550E45631B0E84F900106468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		550E45441B0E84F800106468 = {
+			isa = PBXGroup;
+			children = (
+				550E454F1B0E84F800106468 /* ValetApp */,
+				550E45691B0E84F900106468 /* ValetAppTests */,
+				550E454E1B0E84F800106468 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		550E454E1B0E84F800106468 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				550E454D1B0E84F800106468 /* ValetApp.app */,
+				550E45661B0E84F900106468 /* ValetAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		550E454F1B0E84F800106468 /* ValetApp */ = {
+			isa = PBXGroup;
+			children = (
+				550E45541B0E84F800106468 /* AppDelegate.h */,
+				550E45551B0E84F800106468 /* AppDelegate.m */,
+				550E45571B0E84F800106468 /* ViewController.h */,
+				550E45581B0E84F800106468 /* ViewController.m */,
+				550E455A1B0E84F800106468 /* Main.storyboard */,
+				550E455D1B0E84F800106468 /* Images.xcassets */,
+				550E455F1B0E84F800106468 /* LaunchScreen.xib */,
+				550E45501B0E84F800106468 /* Supporting Files */,
+			);
+			path = ValetApp;
+			sourceTree = "<group>";
+		};
+		550E45501B0E84F800106468 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				550E45511B0E84F800106468 /* Info.plist */,
+				550E45521B0E84F800106468 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		550E45691B0E84F900106468 /* ValetAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				550E456C1B0E84F900106468 /* ValetAppTests.m */,
+				550E456A1B0E84F900106468 /* Supporting Files */,
+			);
+			path = ValetAppTests;
+			sourceTree = "<group>";
+		};
+		550E456A1B0E84F900106468 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				550E456B1B0E84F900106468 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		550E454C1B0E84F800106468 /* ValetApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550E45701B0E84F900106468 /* Build configuration list for PBXNativeTarget "ValetApp" */;
+			buildPhases = (
+				550E45491B0E84F800106468 /* Sources */,
+				550E454A1B0E84F800106468 /* Frameworks */,
+				550E454B1B0E84F800106468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ValetApp;
+			productName = ValetApp;
+			productReference = 550E454D1B0E84F800106468 /* ValetApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		550E45651B0E84F900106468 /* ValetAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550E45731B0E84F900106468 /* Build configuration list for PBXNativeTarget "ValetAppTests" */;
+			buildPhases = (
+				550E45621B0E84F900106468 /* Sources */,
+				550E45631B0E84F900106468 /* Frameworks */,
+				550E45641B0E84F900106468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				550E45681B0E84F900106468 /* PBXTargetDependency */,
+			);
+			name = ValetAppTests;
+			productName = ValetAppTests;
+			productReference = 550E45661B0E84F900106468 /* ValetAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		550E45451B0E84F800106468 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Egan Anderson";
+				TargetAttributes = {
+					550E454C1B0E84F800106468 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					550E45651B0E84F900106468 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 550E454C1B0E84F800106468;
+					};
+				};
+			};
+			buildConfigurationList = 550E45481B0E84F800106468 /* Build configuration list for PBXProject "ValetApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 550E45441B0E84F800106468;
+			productRefGroup = 550E454E1B0E84F800106468 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				550E454C1B0E84F800106468 /* ValetApp */,
+				550E45651B0E84F900106468 /* ValetAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		550E454B1B0E84F800106468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550E455C1B0E84F800106468 /* Main.storyboard in Resources */,
+				550E45611B0E84F800106468 /* LaunchScreen.xib in Resources */,
+				550E455E1B0E84F800106468 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550E45641B0E84F900106468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		550E45491B0E84F800106468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550E45591B0E84F800106468 /* ViewController.m in Sources */,
+				550E45561B0E84F800106468 /* AppDelegate.m in Sources */,
+				550E45531B0E84F800106468 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550E45621B0E84F900106468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550E456D1B0E84F900106468 /* ValetAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		550E45681B0E84F900106468 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 550E454C1B0E84F800106468 /* ValetApp */;
+			targetProxy = 550E45671B0E84F900106468 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		550E455A1B0E84F800106468 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				550E455B1B0E84F800106468 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		550E455F1B0E84F800106468 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				550E45601B0E84F800106468 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		550E456E1B0E84F900106468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		550E456F1B0E84F900106468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		550E45711B0E84F900106468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ValetApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		550E45721B0E84F900106468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ValetApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		550E45741B0E84F900106468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ValetAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ValetApp.app/ValetApp";
+			};
+			name = Debug;
+		};
+		550E45751B0E84F900106468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ValetAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ValetApp.app/ValetApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		550E45481B0E84F800106468 /* Build configuration list for PBXProject "ValetApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550E456E1B0E84F900106468 /* Debug */,
+				550E456F1B0E84F900106468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		550E45701B0E84F900106468 /* Build configuration list for PBXNativeTarget "ValetApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550E45711B0E84F900106468 /* Debug */,
+				550E45721B0E84F900106468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		550E45731B0E84F900106468 /* Build configuration list for PBXNativeTarget "ValetAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550E45741B0E84F900106468 /* Debug */,
+				550E45751B0E84F900106468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 550E45451B0E84F800106468 /* Project object */;
+}
